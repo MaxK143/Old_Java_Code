@@ -1,0 +1,23 @@
+
+Multithread accessible database with big int data limit
+
+Multithread ideas:
+
+access method
+with access sorting with allowance of only read or only write method to run parallel
+ 
+ access method with state id that determines which methods can run
+ 
+ 1 - get and add method
+ 2 - set and add method
+ 3 - insert and add method
+ 4 - remove and add method
+ 
+ method queue build up limit to make sure a single id doesn't stick for too long holding up the other method calls
+ 
+ idea two:
+ 
+ dynamic thread creation for easy creation of running multiple methods in parallel
+ 
+ look into weird stuff for this
+ 
